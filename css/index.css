@@ -1,0 +1,37 @@
+p {
+  font-size: 30px;
+}
+/* ************************************************START PAGE******************************************** */
+
+/* Home Section CSS */
+
+.home {
+  background-color: var(--background);
+  padding: 30px;
+  height: 100%;
+}
+
+.item-left {
+  background-color: var(--primary-light);
+
+  display: block;
+  margin: 100px;
+  border-radius: 20px;
+  padding: 100px;
+}
+
+.playbtn {
+  background-color: rgba(0, 0, 0, 1);
+  margin-top: 20px;
+  padding: 1rem 4rem;
+  font-size: 1.5rem;
+  border: none;
+  border-radius: 30px;
+  color: white;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+
+.playbtn:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+}
